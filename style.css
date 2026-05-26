@@ -162,3 +162,38 @@ nav ul li a {
     height: auto;
 
 }
+
+/* seção de tecnologia */
+
+.titulo-secao {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 80px ;
+    padding: 50px;
+    font-size: 2.5rem;
+}
+
+.secao-tecnologia {
+    padding-bottom: 80px;
+}
+
+.tecnologia-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+    gap: 80px;
+}
+
+.imagem-tech {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-tech img {
+    width: 100%;
+    max-width: 450px;
+}

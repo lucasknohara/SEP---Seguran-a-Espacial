@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    padding-top: 130px; 
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 180px; 
+}
+
+/* Barra de Navegação */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    color: white;
+    font-weight: bold;
+    background: rgba(13, 13, 13, 0.95);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.logo {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* seção da home */
+
+.secao-home {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    padding: 10%;
+}
+
+.secao-home h1 {
+    font-size: 4rem;
+    color: white;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.secao-home p {
+    font-size: 2rem;
+    color: rgb(34, 187, 234);
+    margin: 0 auto 15px auto;
+    line-height: 1.2;
+    font-weight: 550;
+    margin: 30px 0;
+}

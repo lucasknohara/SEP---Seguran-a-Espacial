@@ -245,3 +245,79 @@ nav ul li a {
 }
 
 /* seção de sobre */
+
+.secao-sobre {
+    padding-bottom: 120px;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 10%;
+    gap: 60px;
+}
+
+.sobre-texto {
+    color: white;
+}
+
+.sobre-texto h2 {
+    color: rgb(34, 187, 234);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-grupo {
+    flex: 1;
+}
+
+.card-grupo {
+    background: rgba(34, 187, 234, 0.05);
+    border: 1px solid rgba(34, 187, 234, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 320px;
+    display: flex;  
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-grupo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card-grupo h3 {
+    color: rgb(34, 187, 234);
+    text-align: center;
+}
+
+.card-grupo img {
+    width: 25px;
+    height: auto;
+}
+
+.card-grupo ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.card-grupo ul li {
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -53,10 +53,17 @@ nav ul li a {
     align-items: center;
 }
 
+.logo a {
+
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
 /* seção da home */
 
 .secao-home {
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     color: white;
@@ -78,6 +85,24 @@ nav ul li a {
     line-height: 1.2;
     font-weight: 550;
     margin: 30px 0;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px; 
+}
+
+.home-texto {
+    flex: 1.2; 
+}
+
+.img-home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 /* seção de funcionalidades */

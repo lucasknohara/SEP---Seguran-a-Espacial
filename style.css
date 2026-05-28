@@ -223,13 +223,13 @@ nav ul li a {
     max-width: 450px;
 }
 
-/* seção de ecossistema */
+/* seção de objetivo */
 
-.secao-ecossistema {
+.secao-objetivo {
     padding-bottom: 80px;
 }
 
-.ecossistema-container {
+.objetivo-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
@@ -237,7 +237,7 @@ nav ul li a {
     padding: 0 10%;
 }
 
-.eco-card {
+.obj-card {
     background: rgba(255, 255, 255, 0.05); 
     padding: 40px;
     border-radius: 20px;
@@ -248,22 +248,22 @@ nav ul li a {
     transition: 0.4s;
 }
 
-.eco-card:hover {
+.obj-card:hover {
     transform: translateY(-10px);
 }
 
-.eco-card img {
+.obj-card img {
     width: 60px;
     margin-bottom: 20px;
 }
 
-.eco-card h3 {
+.obj-card h3 {
     color: rgb(34, 187, 234);
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
 
-.eco-card p {
+.obj-card p {
     color: white;
     font-size: 1rem;
     line-height: 1.6;

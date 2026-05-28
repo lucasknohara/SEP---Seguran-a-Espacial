@@ -291,6 +291,8 @@ nav ul li a {
 
 .sobre-texto {
     color: white;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .sobre-texto h2 {
@@ -352,6 +354,8 @@ nav ul li a {
     font-weight: bold;
     text-align: center;
 }
+
+/* seção do quiz */
 
 /* seção de roda pé */
 

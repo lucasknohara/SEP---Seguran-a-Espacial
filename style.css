@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    --cor-primaria: rgb(34, 187, 234);
+    --cor-texto: white;
+}
+
+
 * {
     margin: 0;
     padding: 0px;
@@ -30,7 +36,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%; 
-    color: white;
+    color: var(--cor-texto);
     font-weight: bold;
     background: rgba(13, 13, 13, 0.95);
 }
@@ -43,7 +49,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-texto);
     transition: 0.3s;
 }
 
@@ -56,7 +62,7 @@ nav ul li a {
 .logo a {
 
     text-decoration: none;
-    color: white;
+    color: var(--cor-texto);
     transition: 0.3s;
 }
 
@@ -66,21 +72,21 @@ nav ul li a {
     height: 80vh;
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--cor-texto);
     font-weight: 500;
     padding: 10%;
 }
 
 .secao-home h1 {
     font-size: 4rem;
-    color: white;
+    color: var(--cor-texto);
     line-height: 1.4;
     font-weight: 600;
 }
 
 .secao-home p {
     font-size: 2rem;
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     margin: 0 auto 15px auto;
     line-height: 1.2;
     font-weight: 550;
@@ -125,7 +131,7 @@ nav ul li a {
 .secao-funcionalidades h1 {
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--cor-texto);
     margin-top: 80px;
     padding: 20px;
     font-size: 2.5rem;
@@ -134,7 +140,7 @@ nav ul li a {
 
 .sub-secao {
     text-align: center;
-    color: white;
+    color: var(--cor-texto);
     margin-top: 20px;
 }
 
@@ -150,7 +156,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: var(--cor-texto);
 }
 
 .titulo-funcionalidade {
@@ -167,14 +173,14 @@ nav ul li a {
 }
 
 .texto-func h2 {
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     font-size: 1.3rem;
     margin: 0;
 }
 
 .texto-func p {
     font-size: 1rem;
-    color: white;
+    color: var(--cor-texto);
     margin-top: 10px;
     line-height: 1.6;
 }
@@ -199,7 +205,7 @@ nav ul li a {
 .titulo-secao {
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--cor-texto);
     margin-top: 80px ;
     padding: 50px;
     font-size: 2.5rem;
@@ -264,13 +270,13 @@ nav ul li a {
 }
 
 .obj-card h3 {
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
 
 .obj-card p {
-    color: white;
+    color: var(--cor-texto);
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -290,13 +296,13 @@ nav ul li a {
 }
 
 .sobre-texto {
-    color: white;
+    color: var(--cor-texto);
     max-width: 500px;
     margin: 0 auto;
 }
 
 .sobre-texto h2 {
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
@@ -305,7 +311,7 @@ nav ul li a {
 .sobre-texto p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: white;
+    color: var(--cor-texto);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -316,7 +322,7 @@ nav ul li a {
 
 .card-grupo {
     background: rgba(34, 187, 234, 0.05);
-    border: 1px solid rgba(34, 187, 234, 0.3);
+    border: 1px solid var(--cor-primaria);
     padding: 30px;
     border-radius: 20px;
     max-width: 320px;
@@ -334,7 +340,7 @@ nav ul li a {
 }
 
 .card-grupo h3 {
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     text-align: center;
 }
 
@@ -349,7 +355,7 @@ nav ul li a {
 }
 
 .card-grupo ul li {
-    color: white;
+    color: var(--cor-texto);
     margin-bottom: 8px;
     font-weight: bold;
     text-align: center;
@@ -379,13 +385,13 @@ nav ul li a {
 }
 
 .quiz-card h2 {
-    color: rgb(34, 187, 234);
+    color: var(--cor-primaria);
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
 
 .quiz-card p {
-    color: white;
+    color: var(--cor-texto);
     margin-bottom: 30px;
     line-height: 1.6;
     font-size: 1.1rem;
@@ -394,7 +400,7 @@ nav ul li a {
 .btn-quiz {
     display: inline-block;
     padding: 15px 40px;
-    background-color: rgb(34, 187, 234);
+    background-color: var(--cor-primaria);
     color: #000;
     text-decoration: none;
     font-weight: 700;
@@ -403,7 +409,7 @@ nav ul li a {
 }
 
 .btn-quiz:hover {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 /* seção de roda pé */

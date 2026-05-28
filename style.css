@@ -132,6 +132,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+.sub-secao {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
 .textos-coluna {
     flex: 1;
     min-width: 320px;

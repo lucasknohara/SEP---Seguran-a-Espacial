@@ -278,7 +278,7 @@ nav ul li a {
 /* seção de sobre */
 
 .secao-sobre {
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 
 .sobre-container {
@@ -356,6 +356,55 @@ nav ul li a {
 }
 
 /* seção do quiz */
+
+.secao-quiz {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 60px 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+}
+
+.quiz-card h2 {
+    color: rgb(34, 187, 234);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.quiz-card p {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.btn-quiz {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgb(34, 187, 234);
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.btn-quiz:hover {
+    background-color: #ffffff;
+}
 
 /* seção de roda pé */
 
